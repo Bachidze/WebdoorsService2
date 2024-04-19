@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Services from "./(pages)/page";
+import MainServices from "@/components/ServicesComponent/Services";
 
 export default function Home() {
   return (
   <>
-  <Services />
+  <MainServices />
   </>
   );
 }
