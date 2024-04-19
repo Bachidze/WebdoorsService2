@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function Services() {
+export default function MainServices() {
   return (
     <main className="mt-[133px] w-[92%]  m-auto max-w-[1920px] md:mt-[160px] 3xl:w-[75%]">
       <div

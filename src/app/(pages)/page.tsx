@@ -1,9 +1,10 @@
+import MainServices from '@/components/ServicesComponent/Services'
 import React from 'react'
-import ServicesComponent from '@/components/ServicesComponent/Services'
+
 export default function Services() {
   return (
     <>
-    <ServicesComponent />
+    <MainServices />
     </>
   )
 }
