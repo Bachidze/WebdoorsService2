@@ -21,7 +21,7 @@ export default function MainServices() {
           <div className="flex justify-center items-center bg-[#9DDCFA] w-[44.23px]  h-[44.23px] rounded-full ">
             <Image
               alt="Analysis"
-              src={"/AnalysisForServicesPage.svg"}
+              src={"AnalysisForServicesPage.svg"}
               width={23.81}
               height={22.91}
             />
@@ -41,7 +41,7 @@ export default function MainServices() {
           <div className="flex justify-center items-center bg-[#7B5DFA] opacity-70 w-[44.23px]  h-[44.23px] rounded-full mt-6">
             <Image
               alt="Prototyping"
-              src={"/PrototypingForServicesPage.svg"}
+              src={"PrototypingForServicesPage.svg"}
               width={23.81}
               height={22.91}
             />
@@ -60,7 +60,7 @@ export default function MainServices() {
           <div className="flex justify-center items-center bg-[#FB634F] w-[44.23px]  h-[44.23px] rounded-full mt-6">
             <Image
               alt="Testing&QA"
-              src={"/Testing&QAForServicesPage.svg"}
+              src={"Testing&QAForServicesPage.svg"}
               width={23.81}
               height={22.91}
             />
@@ -92,7 +92,7 @@ export default function MainServices() {
                 </h1>
                 <Image
                   alt="PurpleLiunk"
-                  src={"/MobilePurpleServicesWebdoors.svg"}
+                  src={"MobilePurpleServicesWebdoors.svg"}
                   width={8}
                   height={8}
                 />
@@ -104,7 +104,7 @@ export default function MainServices() {
             <div className="flex justify-center items-center bg-[#1FB0F3] w-[44.23px]  h-[44.23px] rounded-full ">
               <Image
                 alt="Wireframing"
-                src={"/WireframingForServicesPage.svg"}
+                src={"WireframingForServicesPage.svg"}
                 width={23.81}
                 height={22.91}
               />
@@ -124,7 +124,7 @@ export default function MainServices() {
             <div className="flex justify-center items-center bg-[#F3CC1F] w-[44.23px]  h-[44.23px] rounded-full mt-9">
               <Image
                 alt="Design&Code"
-                src={"/Design&CodeForServicesPage.svg"}
+                src={"Design&CodeForServicesPage.svg"}
                 width={23.81}
                 height={22.91}
               />
@@ -145,7 +145,7 @@ export default function MainServices() {
             <div className="flex justify-center items-center bg-[#F31F46] w-[44.23px]  h-[44.23px] rounded-full mt-9">
               <Image
                 alt="Deployment"
-                src={"/DeploymentForServicesPage.svg"}
+                src={"DeploymentForServicesPage.svg"}
                 width={23.81}
                 height={22.91}
               />

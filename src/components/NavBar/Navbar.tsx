@@ -19,7 +19,7 @@ export default function Navbar() {
         <div>
           <Image
             className="w-[33px] h-[33px] 3xl:hidden"
-            src="/MobileHeader1Webdoors.svg"
+            src="MobileHeader1Webdoors.svg"
             alt="HeaderFirst"
             width={33}
             height={33}
@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="3xl:-translate-x-[90px]">
           <Image
             className="w-[24.93px] h-[37px] md:w-[31px] md:h-[46px] 3xl:w-[39px] 3xl:h-[59px]"
-            src="/MobileHeader2Webdoors.svg"
+            src="MobileHeader2Webdoors.svg"
             alt="headerSecond"
             width={24.93}
             height={37}
@@ -69,14 +69,14 @@ export default function Navbar() {
         <div className="3xl:flex 3xl:items-center 3xl:gap-[50px]">
           <Image
             className="hidden 3xl:flex 3xl:w-[50px] 3xl:h-[50px]"
-            src="/desktopheaderblackmember.svg"
+            src="desktopheaderblackmember.svg"
             alt="blackmember"
             width={33}
             height={33}
           />
           <Image
             className="w-[37px] h-[19px] 3xl:w-[46px] 3xl:h-[25px]"
-            src="/MobileHeader3Webdoors.svg"
+            src="MobileHeader3Webdoors.svg"
             alt="headerThird"
             width={37}
             height={19}
