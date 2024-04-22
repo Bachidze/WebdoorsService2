@@ -27,7 +27,10 @@ export default function MainServ() {
               height={22.91}
             />
         <div
-            className="w-0 h-0 
+            className="
+            hidden
+            md:flex
+            w-0 h-0 
                       border-l-[20px] border-l-transparent
                       border-b-[30px] border-b-[#9DDCFA]
                       border-r-[20px] border-r-transparent
