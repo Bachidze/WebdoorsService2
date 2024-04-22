@@ -5,7 +5,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="mt-[250px] w-[92%]  m-auto max-w-[1920px] md:mt-[460px] 3xl:w-[75%]">
+    <footer className="mt-[150px] w-[92%]  m-auto max-w-[1920px] md:mt-[260px] 3xl:w-[75%]">
     <section className="hidden 3xl:flex flex-col items-center mt-[574px] mb-[160px]">
       <div className="flex flex-wrap  w-[100%] justify-between">
         <Image

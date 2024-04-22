@@ -96,16 +96,16 @@ export default function MainServ() {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <div className="relative">
-            <div className="absolute right-3">
+            <div className="absolute right-3 md:right-20">
               <div className="flex items-center absolute">
-                <div className="border h-[5.7px]"></div>
-                <div className="border w-[67.3px]"></div>
-                <div className="border w-[5.7px] h-[5.7px] rounded-full"></div>
+                <div className="border h-[5.7px] md:border-[#8F8CEF] md:h-[8px] md:border-2"></div>
+                <div className="border w-[67.3px] md:border-[#8F8CEF] md:w-[211px] md:border-2"></div>
+                <div className="border w-[5.7px] h-[5.7px] rounded-full md:border-[#8F8CEF] md:w-[10px] md:h-[10px] md:border-2"></div>
               </div>
               <div className="flex items-center justify-between mt-[5px]">
-                <h1 className="text-[14px] leading-[17.5px] text-white font-medium">
+                <h1 className="text-[14px] leading-[17.5px] text-white font-medium md:text-[36px] md:leading-[38px] md:font-bold">
                   Services
                 </h1>
                 <Image
@@ -119,7 +119,7 @@ export default function MainServ() {
           </div>
 
           <div className="flex flex-col items-center mt-[100px]">
-            <div className="flex justify-center items-center bg-[#1FB0F3] w-[44.23px]  h-[44.23px] rounded-full md:w-[82.86px] md:h-[82.86px] md:mt-11 ">
+            <div className="flex justify-center items-center relative bg-[#1FB0F3] w-[44.23px]  h-[44.23px] rounded-full md:w-[82.86px] md:h-[82.86px] md:mt-11 ">
               <Image
                 className="md:w-[44.63px] md:h-[42.93px]"
                 alt="Wireframing"
@@ -127,6 +127,19 @@ export default function MainServ() {
                 width={23.81}
                 height={22.91}
               />
+               <div
+            className="
+            hidden
+            md:flex
+            w-0 h-0 
+                      border-t-[20px] border-t-transparent
+                      border-r-[30px] border-r-[#9DDCFA]
+                      border-b-[20px] border-b-transparent
+                      absolute
+                      right-24
+                      rounded-[5px]
+                      "
+          ></div>
             </div>
             <div className="mt-[9.77px]">
               <h1 className="text-[14px] leading-[17.5px] font-bold text-white pb-[10px] text-center md:text-[18px] md:leading-[22.5px]">
